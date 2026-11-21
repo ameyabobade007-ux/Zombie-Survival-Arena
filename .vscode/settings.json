@@ -1,0 +1,14 @@
+
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+
+    "code-runner.executorMap": {
+        "cpp": "cd /c/Users/Lenovo/OneDrive/Desktop/ZombieSurvivalArena && g++ -std=c++17 main.cpp src/systems/SaveManager.cpp -Iinclude $(pkg-config --cflags --libs sfml-graphics sfml-audio) -o main.exe && ./main.exe"
+    },
+
+    "code-runner.ignoreSelection": true,
+    "code-runner.fileDirectoryAsCwd": false
+}

@@ -1,0 +1,45 @@
+{
+  "map_name": "Abandoned City - Map 1",
+  "tile_size": 32,
+  "columns": 80,
+  "rows": 60,
+  "world_width": 2560,
+  "world_height": 1920,
+  "player_spawn": {
+    "x": 1280,
+    "y": 960
+  },
+  "zombie_spawn_zones": [
+    {
+      "x": 160,
+      "y": 160,
+      "width": 480,
+      "height": 320
+    },
+    {
+      "x": 1840,
+      "y": 160,
+      "width": 480,
+      "height": 320
+    },
+    {
+      "x": 160,
+      "y": 1400,
+      "width": 480,
+      "height": 320
+    },
+    {
+      "x": 1840,
+      "y": 1400,
+      "width": 480,
+      "height": 320
+    }
+  ],
+  "pickup_zone": {
+    "x": 1800,
+    "y": 1360,
+    "width": 320,
+    "height": 256
+  },
+  "notes": "Ground layout starter grid. Place building/wall/obstacle collision objects in the matching layers; avoid spawning entities inside solid props."
+}

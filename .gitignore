@@ -1,0 +1,40 @@
+# Compiled files
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+*.res
+
+# Build folders
+build/
+bin/
+Release/
+Debug/
+
+# Distribution and testing
+ZombieSurvivalArena_Final/
+ZombieSurvivalArena_Test/
+*.zip
+
+# Save data
+saves/
+*.sav
+*.save
+*.dat
+
+# Backup and generated files
+*backup*
+icon_resources.txt
+*.log
+*.tmp
+*.bak
+
+# IDE and operating system
+.vs/
+.idea/
+.vscode/ipch/
+.DS_Store
+Thumbs.db
+desktop.ini

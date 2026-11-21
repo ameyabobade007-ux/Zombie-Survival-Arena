@@ -1,0 +1,8 @@
+{
+  "style": "top-down post-apocalyptic pixel art",
+  "outline": "dark charcoal",
+  "ground_tile_px": 32,
+  "prop_scale": "32px to 96px",
+  "filtering": "nearest neighbor",
+  "transparent_objects": true
+}
